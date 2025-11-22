@@ -132,7 +132,7 @@ export const Home = () => {
            >
         {images.map((item, i) => (
           <SwiperSlide key={i}>
-          <div className="flex flex-col gap-4 pl-20">
+          <div className="flex flex-col gap-4 md:pl-20">
         <img
           src={item.src}
           className="w-full h-auto max-w-full cursor-grab active:cursor-grabbing "
