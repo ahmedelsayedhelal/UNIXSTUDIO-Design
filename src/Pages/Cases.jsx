@@ -3,7 +3,7 @@ import { CasesHome } from "../Components/Cases/CasesHome"
 
 export const Cases = ()=>{
     return(
-        <div>
+        <div className="bg-black">
             <CasesHead/>
             <CasesHome/>
         </div>

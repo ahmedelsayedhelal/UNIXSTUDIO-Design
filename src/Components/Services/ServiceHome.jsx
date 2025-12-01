@@ -1,4 +1,4 @@
-import { ArrowUpRight } from "lucide-react"
+import { ArrowUpLeft, ArrowUpRight } from "lucide-react"
 import { Link } from "react-router"
 
 export const ServiceHome = () => {
@@ -7,11 +7,11 @@ export const ServiceHome = () => {
 
             <div className="grid grid-cols-1 md:grid-cols-2 mt-20">
 
-                <div className="py-12 px-8 flex justify-between border-b border-b-gray-300 border-r border-r-gray-300 order-1 md:order-0">
+                <div className="py-12 px-12 flex justify-between border-b  border-b-gray-300 border-r border-r-gray-300 order-0 md:order-0">
                     Services
                 </div>
 
-                <div className="py-12 px-8 flex justify-between border-b border-b-gray-300 
+                <div className="py-12 px-12 flex justify-between border-b border-b-gray-300 
                         order-6 md:order-0">
                     INDUSTRIES
                 </div>
@@ -20,7 +20,7 @@ export const ServiceHome = () => {
                         order-2 md:order-0">
                         <h3 className="font-bold px-4 text-2xl md:text-6xl grow">
                             WEB APPLICATION</h3>
-                        <div className="mt-8"><ArrowUpRight /></div>
+                        <div className="mt-8"><ArrowUpRight  /></div>
                     </div> </Link>
 
                 <div className="py-12 px-8 flex justify-between items-center border-b border-b-gray-300  
@@ -104,9 +104,9 @@ export const ServiceHome = () => {
                             network of Angel investors and Venture Capital.
                         </p>
 
-                        <img className="w-[120px] p-8" src="/public/assets/Button Circle.png" />
-
-
+                          <div className="bg-black rounded-full p-4 m-8 hover:opacity-50">
+                          <ArrowUpLeft size={40} className="text-white" />
+                           </div>
                     </div>
 
 

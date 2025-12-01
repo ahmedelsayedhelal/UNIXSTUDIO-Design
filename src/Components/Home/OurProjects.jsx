@@ -14,9 +14,9 @@ export const OurProjects = () => {
 
         </p>
       </div>
-      <div className=" mt-12 grid  sm:grid-cols-1 md:grid-cols-3 w-full     ">
+      <div className=" mt-12 grid  sm:grid-cols-1 md:grid-cols-3 w-full  divide-x divide-y divide-gray-300  border-l border-r border-t border-b border-gray-200  ">
 
-        <div className="md:col-start-2 md:col-end-3 border  border-gray-100  border-t-0 h-[600px]  ">
+        <div className="md:col-start-2 md:col-end-3 border-l border-gray-200  ">
           <div className="flex flex-col  ">
             <div className="mb-80">
               <div className="flex justify-between items-center md:flex-row md:justify-around py-8 ">
@@ -31,7 +31,7 @@ export const OurProjects = () => {
               </p>
             </div>
             <div>
-              <p className="font-bold px-16">
+              <p className="font-bold pb-20 px-16">
                 INTERFACE & WEBSITE
               </p>
             </div>
@@ -39,10 +39,10 @@ export const OurProjects = () => {
           </div>
         </div>
 
-        <div className="md:col-start-3  justify-self-end ">
+        <div className="md:col-start-3 w-full  justify-self-end  ">
             <img src="/public/assets/projectone.svg " className="h-[600px] w-[400px] p-[32px_0px_32px_32px] pr-0" />
         </div>
-        <div className="md:col-start-2 md:col-end-3  ">
+        <div className="md:col-start-2 md:col-end-3 border-l border-gray-200  ">
             <img src="/public/assets/projecttwo.svg" className="h-[600px] w-[400px] p-[32px_0px_32px_32px] pr-0" />
         </div>
 
@@ -84,15 +84,15 @@ export const OurProjects = () => {
 
         </div>
         <div className="md:col-start-2 md:col-end-3 border  border-gray-100  border-t-0 mt-16 py-8 ">
-          <div className="flex justify-around ">
-            <h3 className="font-bold text-2xl md:text-3xl px-8  border-b-2 py-8">
+          <div className="flex justify-around border-b border-gray-200 ">
+            <h3 className="font-bold text-2xl md:text-3xl px-8   py-8">
 
               Web <br />
               Application
 
             </h3>
             <div className="py-8">
-              <ArrowUpRight />
+              <ArrowUpRight size={40} />
 
             </div>
 
@@ -104,15 +104,15 @@ export const OurProjects = () => {
 
           </div>
 
-          <div className="flex justify-around ">
-            <h3 className="font-bold text-2xl md:text-3xl px-8  border-b-2 py-8">
+          <div className="flex justify-around border-b border-gray-200">
+            <h3 className="font-bold text-2xl md:text-3xl px-8  py-8">
 
               Web <br />
               Application
 
             </h3>
             <div className="py-8">
-              <ArrowUpRight />
+              <ArrowUpRight size={40} />
 
             </div>
 
@@ -125,15 +125,15 @@ export const OurProjects = () => {
           </div>
         </div>
         <div className="md:col-start-3 border  border-gray-100  border-t-0 ">
-          <div className="flex justify-around ">
-            <h3 className="font-bold text-2xl md:text-3xl px-8  border-b-2 py-8">
+          <div className="flex justify-around border-b border-gray-200 ">
+            <h3 className="font-bold text-2xl md:text-3xl px-8   py-8">
 
               Web <br />
               Application
 
             </h3>
             <div className="py-8">
-              <ArrowUpRight />
+              <ArrowUpRight size={40} />
 
             </div>
 
@@ -145,15 +145,15 @@ export const OurProjects = () => {
 
           </div>
 
-          <div className="flex justify-around ">
-            <h3 className="font-bold text-2xl md:text-3xl px-8  border-b-2 py-8">
+          <div className="flex justify-around border-b border-gray-200 ">
+            <h3 className="font-bold text-2xl md:text-3xl px-8   py-8">
 
               Web <br />
               Application
 
             </h3>
             <div className="py-8">
-              <ArrowUpRight />
+              <ArrowUpRight size={40} />
 
             </div>
 

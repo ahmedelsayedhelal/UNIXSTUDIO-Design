@@ -119,13 +119,13 @@ export const Home = () => {
             ABOUT CEO
           </h1>
 
-          <div className="flex flex-row  px-4 md:px-20 gap-8 md:gap-12">
+          <div className="flex flex-row items-center px-4 md:px-20 gap-8 md:gap-12">
             <div className="hidden shrink-0 w-40 h-40 md:w-40 md:h-40 md:flex items-end justify-center">
               <img src="../../../public/assets/head.png" />
             </div>
 
 
-            <span className="text-6xl md:text-9xl font-bold text-white align-top  ">“</span>
+            <span className="text-6xl md:text-9xl font-bold self-start text-white align-top  ">“</span>
 
 
             <div className="flex-1">
