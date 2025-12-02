@@ -6,7 +6,7 @@ export const AboutHome = () => {
   
 
   return (
-    <section className="md:mt-84 min-h-screen w-full py-20">
+    <section className="md:mt-40 min-h-screen w-full py-20">
       <div className="grid grid-cols-2 md:grid-cols-3 w-full items-start">
 
         <div className="flex flex-col h-[440px] py-8 items-center justify-center order-1 md:order-1 border-r border-r-gray-300 ">

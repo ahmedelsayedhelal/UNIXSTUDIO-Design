@@ -11,7 +11,7 @@ const Footer = () => {
 
   return (
     <div className="flex flex-col md:flex-row min-h-screen font-sans relative overflow-hidden">
-      <div className="flex-1 bg-gray-100 px-10 lg:px-20 py-12 lg:py-16 flex flex-col justify-between relative z-10">
+      <div className="flex-1 bg-gray-100 px-8 lg:px-20 py-12 lg:py-16 flex flex-col justify-between relative z-10">
         <div className="flex flex-col gap-3 mb-16 lg:mb-20">
           <div className="flex gap-3 flex-wrap">
             {socialLinks.slice(0, 3).map((link, index) => (
@@ -74,7 +74,7 @@ const Footer = () => {
         />
       </div>
 
-      <div className="absolute left-1/2 md:left-[55%] top-[50%] -translate-x-1/2 -translate-y-1/2 w-32 h-32 sm:w-40 sm:h-40 md:w-48 md:h-48 lg:w-52 lg:h-52 z-20 pointer-events-none">
+      <div className="absolute left-1/2 md:left-[55%] top-[55%] md:top-[50%] -translate-x-1/2 -translate-y-1/2 w-32 h-32 sm:w-40 sm:h-40 md:w-48 md:h-48 lg:w-52 lg:h-52 z-20 pointer-events-none">
         <img
           src="/public/assets/Icon.png"
           alt="Get in Touch"

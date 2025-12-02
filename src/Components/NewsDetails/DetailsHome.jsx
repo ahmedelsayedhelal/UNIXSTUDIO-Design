@@ -68,8 +68,51 @@ export const DetailHome = () => {
 
                 </div>
 
-                <div className="col-span-2 text-4xl ">
-                    <img src="/public/assets/Details.png " />
+                <div className="col-span-2 text-4xl pt-8 ">
+                <p className="text-xl w-75 md:w-150 pb-4 md:pl-32">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam lorem enim, convallis ac enim eu, malesuada pulvinar metus. Suspendisse eu mollis risus. Proin vel nisl ligula. Etiam vulputate dolor et odio accumsan maximus. Proin ac quam sed turpis tincidunt volutpat vitae maximus tellus. Sed aliquet gravida orci, non venenatis enim consectetur quis. Donec quis dui eu neque rutrum pulvinar.
+                    Curabitur nec faucibus odio. Praesent non ligula quis turpis imperdiet accumsan ut in metus. In facilisis metus vitae efficitur convallis. Phasellus libero nisi, ullamcorper vel tristique non, pellentesque non nibh. Suspendisse non semper eros, ac tempus lacus. Aenean ac nisl vel magna maximus sodales. Praesent nec diam purus. Praesent vitae efficitur enim, eget porta risus. Sed enim diam, iaculis vitae feugiat sit amet, faucibus quis lorem.
+                </p>
+                
+                <p className="text-xl w-150 pb-4 md:pl-32">
+                        Donec tempor pellentesque leo, sit amet euismod mauris vehicula eu. Proin nec lacus tristique, ullamcorper erat quis, sollicitudin ipsum. Ut nibh orci, laoreet vel facilisis viverra, congue vel mauris. Aenean congue, tortor at suscipit suscipit, tellus purus sodales neque, sed sagittis orci odio ac justo. 
+               </p>
+
+               <p className="text-xl w-150 pb-4 md:pl-32">
+                Despite the tremendous impact emotions have on our decision-making mechanism, there are still two kinds of things going on in the brain — cognitive and emotional. And the former is always alert, trying to understand the world and weighing all pros and cons.
+               </p>
+               <p className="text-xl w-150 pb-4 md:pl-32">
+                But this article focuses on people’s emotional reactions as they happen in the digital world, helping designers create better user experience and form long-lasting bonds with the audience. From the material below, you’ll learn how to master designs that evoke emotions; how certain digital products make users feel; and how to use emotions to drive customers to action. So, buckle up, and let’s get going!
+               </p>
+               <h3 className="text-3xl w-150 font-panchang font-bold mb-8 md:pl-32 uppercase">
+                Emotional design in UX/UI: How to nail
+                </h3>
+                   <p className="text-xl w-150 pb-4 md:pl-32">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam lorem enim, convallis ac enim eu, malesuada pulvinar metus. Suspendisse eu mollis risus. Proin vel nisl ligula. Etiam vulputate dolor et odio accumsan maximus. Proin ac quam sed turpis tincidunt volutpat vitae maximus tellus. Sed aliquet gravida orci, non venenatis enim consectetur quis. Donec quis dui eu neque rutrum pulvinar.
+                    Curabitur nec faucibus odio. Praesent non ligula quis turpis imperdiet accumsan ut in metus. In facilisis metus vitae efficitur convallis. Phasellus libero nisi, ullamcorper vel tristique non, pellentesque non nibh. Suspendisse non semper eros, ac tempus lacus. Aenean ac nisl vel magna maximus sodales. Praesent nec diam purus. Praesent vitae efficitur enim, eget porta risus. Sed enim diam, 
+                </p>
+                  <h3 className="text-3xl w-150 font-panchang font-bold mb-8 md:pl-32 uppercase">
+                A bit funny never killed nobody
+                </h3>
+                    <p className="text-xl w-150 pb-4 md:pl-32">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam lorem enim, convallis ac enim eu, malesuada pulvinar metus. Suspendisse eu mollis risus. Proin vel nisl ligula. Etiam vulputate dolor et odio accumsan maximus. Proin ac quam sed turpis tincidunt volutpat vitae maximus tellus. Sed aliquet gravida orci, non venenatis enim consectetur quis. Donec quis dui eu neque rutrum pulvinar.
+                    Curabitur nec faucibus odio. Praesent non ligula quis turpis imperdiet accumsan ut in metus. In facilisis metus vitae efficitur convallis. Phasellus libero nisi, ullamcorper vel tristique non, pellentesque non nibh. Suspendisse non semper eros, ac tempus lacus. Aenean ac nisl vel magna maximus
+                </p>
+                <div>
+                    <img src="/public/assets/detail1.svg" className="w-[830px] "/>
+                </div>
+                <h3 className="text-3xl w-150 font-panchang font-bold  my-8 md:pl-32 uppercase">
+                Close cooperation: why it’s important
+                </h3>
+                              <p className="text-xl w-150 pb-4 md:pl-32">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam lorem enim, convallis ac enim eu, malesuada pulvinar metus. Suspendisse eu mollis risus. Proin vel nisl ligula. Etiam vulputate dolor et odio accumsan maximus. Proin ac quam sed turpis tincidunt volutpat vitae maximus tellus. Sed aliquet gravida orci, non venenatis enim consectetur quis. Donec quis dui eu neque rutrum pulvinar.
+                    Curabitur nec faucibus odio. Praesent non ligula quis turpis imperdiet accumsan ut in metus. In facilisis metus vitae efficitur convallis. Phasellus libero nisi, ullamcorper vel tristique non, pellentesque non nibh. Suspendisse non semper eros, ac tempus lacus. Aenean ac nisl vel magna maximus
+                </p>
+                  <div>
+                    <img src="/public/assets/detail2.svg" className="w-[830px] "/>
+                </div>
+
+                
 
                 </div>
 

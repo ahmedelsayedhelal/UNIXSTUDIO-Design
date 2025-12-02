@@ -31,15 +31,14 @@ export const Home = () => {
 
      
 
-      <div className="flex flex-col w-full  ">
-      <h1 className="font-bold font-panchang text-3xl md:text-7xl uppercase px-20 mb-12">
+      <div className="flex flex-col w-full space-y-0  relative ">
+      <h1 className="font-bold font-panchang text-3xl md:text-7xl uppercase px-20 mb-12 ">
         LET’s Find Your <br/>
         DEsign Product
       </h1>
       <p className="text-xl md:text-3xl px-20 font-panchang font-semibold ">
         Safe and Beneficial Design for Humanity.
       </p>
-      <img src="/public/assets/Vector (1).png" className=" relative bottom-[90%]" />
       <div className="flex justify-between">
       <p className="px-20 text-2xl">
         We build engaging user experience for early-stage startups
